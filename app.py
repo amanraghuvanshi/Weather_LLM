@@ -3,6 +3,13 @@ import openai
 import requests
 import streamlit as st
 
+# Function handling the data from the openweather 
+def weather_data(city, WEATHER_TOKEN):
+    base_URI = "http://api.openweather.org/data/2.5/weather?"
+    complete_uri = base_URI + "appid=" + WEATHER_TOKEN + "&q=" + city
+    resp = requests.get(complete_uri)
+    return resp.json()
+
 # main function that is handling the streamlit
 def main():
     # Sidebar configuration

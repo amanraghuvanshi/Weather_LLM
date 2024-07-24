@@ -11,3 +11,12 @@ def main():
     
     # OpenWeather Tokens
     OPEN_WEATHER_TOKEN = os.getenv("OPENWEATHERTOKEN")
+    OPENAI_TOKEN = os.getenv("SECRET_KEY")
+    
+    # Button to fetch and display weather data
+    response = st.sidebar.button("Accumulate Information")
+    
+    
+# Entry Point
+if __name__ == "__main__":
+    main()

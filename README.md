@@ -18,4 +18,4 @@ This project harnesses the power of OpenWeatherMap's weather data and the ingenu
 1. Clone this repository:
 
    ```bash
-   git clone [https://github.com/your-username/openweatherorg-llm-forecasting.git](https://github.com/your-username/openweatherorg-llm-forecasting.git)
+   git clone [https://github.com/amanraghuvanshi/Weather_LLM.git](https://github.com/amanraghuvanshi/Weather_LLM.git)
